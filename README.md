@@ -2,6 +2,12 @@ This is a simple script that I made to reduce the time it takes me to make steam
 
 This script(s) assumes that the two img files are the same dimensions, and is also reliant on imagemagick.
 
+Make sure both scripts are in the same folder, and run them based on need.
+
+For just one img you can run the first script with the usage:
+
+<code>./merge_images.sh \<base_image.png\> \<overlay_image.png\> \<output_image.png\></code>
+
 imagemagick can be installed from Homebrew
 
 <code>brew install imagemagick</code>
