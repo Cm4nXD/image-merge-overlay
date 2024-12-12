@@ -4,9 +4,16 @@ This script(s) assumes that the two img files are the same dimensions, and is al
 
 Make sure both scripts are in the same folder, and run them based on need.
 
+
+
 For just one img you can run the first script with the usage:
 
 <code>./merge_images.sh \<base_image.png\> \<overlay_image.png\> \<output_image.png\></code>
+
+For a whole folder of imgs with the same overlay you can use the second script.
+
+<code>./batch_merge_images_auto.sh \<overlay_image.png\> \<input_folder\></code>
+
 
 imagemagick can be installed from Homebrew
 
