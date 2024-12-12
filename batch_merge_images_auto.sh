@@ -2,7 +2,7 @@
 
 # Check for correct arguments
 if [ "$#" -ne 2 ]; then
-    echo "Usage: ./batch_merge_images_auto.sh <overlay_image.png> <inpclearut_folder>"
+    echo "Usage: ./batch_merge_images_auto.sh <overlay_image.png> <input_folder>"
     exit 1
 fi
 
